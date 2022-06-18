@@ -20,7 +20,7 @@ img {
   max-width: 100%;
 }
 
-[class*="contenedor"] {
+[class*="container"] {
   max-width: 120rem;
   margin: 0 auto;
   width: 95%;
