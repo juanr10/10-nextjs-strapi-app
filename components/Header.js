@@ -8,12 +8,14 @@ const Header = () => {
       <div className="container">
         <div className={styles.bar}>
           <Link href="/">
-            <Image
-              src="/img/logo.svg"
-              width={350}
-              height={80}
-              alt="Logo image"
-            />
+            <a>
+              <Image
+                src="/img/logo.svg"
+                width={350}
+                height={80}
+                alt="Logo image"
+              />
+            </a>
           </Link>
 
           <nav className={styles.navigation}>
